@@ -1,0 +1,16 @@
+:root{
+  --body_background:white;
+  --body_color:black;
+}
+ /* data-theme is on darkmode.js line 25 */
+[data-theme="dark"] {
+  --body_background:#282c34;
+  --body_color:white;
+}
+*
+{
+  transition: all 0.3s ease-in-out;
+}
+body {
+  margin: 0;
+}
